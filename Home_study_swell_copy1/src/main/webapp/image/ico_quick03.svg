@@ -1,0 +1,10 @@
+<svg id="아이콘_입회문의" xmlns="http://www.w3.org/2000/svg" width="30" height="35" viewBox="0 0 30 35">
+  <path id="패스_180" data-name="패스 180" d="M29,2.333,3.167,2,.417,5.417l.417,23.5L5.5,27.667h23Z" fill="#fff"/>
+  <path id="합치기_8" data-name="합치기 8" d="M-1835.916-1715.6a3.082,3.082,0,0,1-3.083-3,3.082,3.082,0,0,1,3.083-3h21.626l3.291-.4v6.4Z" transform="translate(1840 1749.6)" fill="#ff6a6a" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+  <path id="패스_108" data-name="패스 108" d="M1,31a3.082,3.082,0,0,0,3.084,3H29V27.6" fill="none" stroke="#222" stroke-linejoin="round" stroke-width="2"/>
+  <path id="패스_110" data-name="패스 110" d="M29,28H4.084A3.082,3.082,0,0,0,1,31" fill="none" stroke="#222" stroke-linejoin="round" stroke-width="2"/>
+  <path id="패스_111" data-name="패스 111" d="M29,27.6V2H4.256A3.238,3.238,0,0,0,1,5.2V31" fill="none" stroke="#222" stroke-linejoin="round" stroke-width="2"/>
+  <line id="선_5" data-name="선 5" y1="26" transform="translate(5 2)" fill="none" stroke="#222" stroke-linejoin="round" stroke-width="2"/>
+  <path id="패스_112" data-name="패스 112" d="M15,1V11.477L11.968,8.9,9,11.477,8.937,1Z" fill="#ff6a6a"/>
+  <path id="패스_113" data-name="패스 113" d="M15,1V11.477L11.968,8.9,9,11.477,8.937,1Z" fill="none" stroke="#222" stroke-linejoin="round" stroke-width="2"/>
+</svg>

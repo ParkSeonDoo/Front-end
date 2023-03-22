@@ -1,0 +1,217 @@
+@charset "UTF-8";
+body{
+	padding : 0;
+	margin : 0;
+	box-sizing : border-box;
+}
+#main{
+	width : auto;
+	position : relative; 
+}
+#quick_menu{
+	position : fixed;
+	top : 150px;
+	right : 0;  
+	text-align : center;
+}
+#quick_menu_inquiry{
+	border-radius : 15px 0 0 15px;
+	width : 140px;
+	height : 500px;
+}
+.quick_menu_col{
+	background-color : #FF4B4B;
+	padding-top : 25px;
+	padding-bottom : 2px; 
+	border-radius : 15px 0 0 0;
+	color : #ffffff;
+	font-weight : 300;
+}
+.quick_menu_first{
+	cursor : pointer;
+}
+.quick_menu_first img{
+	background-color : #FFB1B1;
+	border-radius : 40px;
+	width : 40px;
+	height : 40px;
+	padding : 20px;
+}
+.quick_menu_first div{
+	margin-bottom : 25px; 
+}
+.quick_menu_last{
+	background-color : #E93838;
+	padding : 15px 5px;
+	border-radius : 0 0 0 15px;
+	color : #ffffff;
+	font-weight : 300;
+	cursor : pointer;
+}
+.quick_menu_last div.active{
+	font-weight : bold;
+	font-size : 18px; 
+}
+.quick_menu_num{
+	margin-top : 15px;
+	cursor : pointer;
+}
+#header{
+	width : 100%;
+	position : fixed;
+	top : 0;
+	left : 0;
+	text-align : center;
+	height : 100px;;
+	background-color : #ffffff;  
+}
+#header div{
+	display : inline-block; 
+}
+#nav{
+	position : absolute;
+	top : 20px;
+	left : 300px;  
+}
+#menu{
+	margin-top : 30px;
+}
+#menu a{
+	text-decoration : none;
+	color : #000;
+}
+#menu span{
+	font-size : 20px;
+	font-weight : bold;
+	margin : 0 30px;
+}
+#login{
+	position : absolute;
+	top : 20px;
+	right : 300px;
+}
+#login a{
+	text-decoration : none;
+	color : #000;
+}
+#login p{
+	margin : 0;
+}
+.main_vison{
+	position : relative;
+	padding-top : 200px;
+	margin-top : 90px;
+	text-align : center;
+	background-color : #F3F3F3; 
+}
+.main_vison_title{
+	font-size :  90px;
+	font-weight : bold;
+	position : absolute;
+	top : 90px;
+	left : 480px; 
+}
+.brand_info{
+	background-color : #EC3C47;
+	padding : 150px 0;
+}
+.brand_info_title{
+	text-align : center;
+	color : #ffffff;
+	font-size : 250px;
+	font-weight : bold;
+	margin-bottom: 60px;
+}
+.brand_info_subtitle{
+	text-align : center;
+	color : #ffffff;
+	font-size : 50px;
+	margin-bottom: 40px;		
+}
+.brand_info_subtitle .subtitle_first{
+	font-weight : 100; 
+}
+.brand_info_subtitle .subtitle_last{
+	font-weight : bold;
+}
+.brand_info_btn{
+	text-align : center;
+}
+.brand_info_btn button{
+	width : 90px;
+   	padding : 10px 0;
+   	border-radius : 30px;
+   	background : none;
+   	color : #ffffff;
+   	border : 1px solid #ffffff;
+   	font-size : 21px;
+   	font-weight : 500;
+   	margin : 0 15px;
+   	cursor : pointer;
+}
+.brand_info_btn button.active{
+	background : #ffffff;
+	color : #EC3C47;
+}
+.learning_system{
+	text-align : center;
+	background-color : #2A3D61;
+	padding : 150px 0;
+	font-size : 50px;
+	color : #ffffff;
+}
+.learning_system_title{
+	margin-bottom: 40px;
+}
+.learning_system .learning_system_first{
+	font-weight : bold;
+}
+.learning_system .learning_system_last{
+	font-weight : 100;
+}
+.learning_system_btn button{
+	width : 190px;
+   	padding : 20px 0;
+   	border-radius : 40px;
+   	background-color : #707070;
+   	color : #ffffff;
+   	border : 1px solid #707070;
+   	font-size : 21px;
+   	font-weight : 600;
+   	margin : 0 5px;
+   	cursor : pointer;
+   	margin-bottom : 120px; 
+}
+.learning_system_btn button.active{
+	background : #FF4646;
+	color : #ffffff;
+}
+.learning_system_img{
+	font-size : 20px;
+	font-weight : 500; 
+}
+.learning_system_img img{
+	margin-bottom : 60px; 
+}
+.Company_information{
+	background-color : #333333;
+	padding : 50px 0 50px 300px;
+	color : #ffffff;	
+}
+.Company_information img{
+	margin-bottom : 30px;
+}
+.Company_information_title{
+	font-size : 15px;
+	margin-bottom : 20px; 	
+}
+.Company_information a{
+	text-decoration : none;
+	color : #ffffff;
+}
+.Company_information a.active{
+	color : #FF5442;
+}
+.Company_information_subtitle{
+	font-size : 13px;
+}
