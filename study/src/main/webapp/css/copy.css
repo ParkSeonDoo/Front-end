@@ -1,0 +1,113 @@
+@charset "UTF-8";
+body{
+	padding: 0; 
+	margin: 0; 
+	box-sizing: border-box;
+}
+#main{
+	width : 100%; 
+	box-sizing: border-box;
+}
+.menu{
+	width: 100%; 
+	height: 70px; 
+	margin-bottom: 100px; 
+	overflow: hidden; 
+	padding: 30px; 
+	box-sizing: border-box; 
+}
+.memu_logo{width: 50%; float: left;}
+.menu img{width: 120px; height: 30px; box-sizing: border-box;}
+.menu_bar{box-sizing: border-box; width: 50%; float: right; text-align: center;}
+.menu_bar a{text-decoration: none; color: #000; font-size: 23px; font-weight: 900; margin: 0 40px;}
+.work{width: 40px; height: 50px; background-color: #ccc; }
+
+.section_1{margin-left: 30px; position: relative;}
+.video{margin-bottom: 30px; display: inline-block; width: 800px; height: 600px; }
+.video video{ width: 100%; height: 100%; box-sizing: border-box;}
+.section_div1{position: absolute; bottom: 170px; right: 120px; width: 440px;}
+.section_div1 div{font-size: 62px; font-weight: 900;}
+.section_div2{position: absolute; bottom: 150px; right: 30px;}
+.section_div2 img{width: 20px; height: 20px; display: block; margin-bottom: 60px;}
+.scroll{position: absolute; left: 50%; bottom: 20px; margin-top: 20px;}
+.scroll p{font-weight: 900; font-size: 17px;}
+.scroll div{border: 2px solid #000; width: 20px; height: 30px; border-radius: 15px; margin: 0 auto; 
+			text-align: center; text-align: center; font-weight: 900; font-size: 20px;}
+			
+.section_2{padding-top:180px; width: 100%; height:auto; background-color: #d9eeed; position: relative; box-sizing: border-box;}
+.section_div3{padding: 0 20px; box-sizing: border-box;}
+.section_wi{width:  630px; height: 500px;}
+.section_font{color: #225c60; font-size: 45px; font-weight: 900; margin-bottom: 10px;}
+.section_im{width:680px; height: 530px; position: absolute; right: 30px; bottom: 0;}
+.section_2 img{width: 100%; height: 100%;}
+.section_fo{position: absolute; top: 0; right: 5px; height: 40px;}
+.section_fo span{font-size: 130px; color: #7fd3cd; opacity: .1; line-height: 1; font-weight: 900; display: block;}
+
+.section_3{width: 100%; overflow: hidden; position: relative; padding:300px 0 260px; }
+.section_3img{position:absolute; top:0; right:0; z-index:1;}
+.section_3img img{width: 300px; height: 380px;}
+.section_3font{font-size: 40px; font-weight: 900; width:100%; padding-right:40px; text-align:right; position:relative; z-index:2; margin-bottom:60px; box-sizing: border-box;}
+.section3{padding: 0 20px; overflow: hidden; width:100%; position:relative; z-index:2;}
+.section_3cont{display: inline-block; float:left; width:50%;}
+.section_3cont a{text-decoration: none; color: #000; width: 660px; display: inline-block;}
+.section_3cont a img{width: 100%; margin-bottom: 15px;}
+.seciton_conts{font-size: 20px; font-weight: bold; margin-bottom: 15px; display: block; width: 300px;}
+.seciton_contss{font-size: 17px; display: block; width: 320px;}
+.section_3cont2{display: inline-block; float:right; width:50%;}
+.section_3cont2 a{text-decoration: none; color: #000; width: 660px; display: inline-block;}
+.section_3cont2 a img{width: 100%; margin-bottom: 15px;}
+.setion-ii{position: relative;}
+.section_3img2{width: 30vw; position:absolute; bottom:-297px; left:0;}
+.section_3img2 img{width: 100%;}
+
+.section4{width: 100%; position: relative; }
+.section4 img{ width: 90px; position: absolute; top: -60px; right: 10px; z-index: 2; padding-right: 30px;}
+.video2{position: relative; z-index:1;}
+.video2 video{width:100%;}
+
+.section5{width: 100%; height: 1750px; margin: 150px 0; padding: 0 20px; position: relative; box-sizing: border-box;}
+.section5_font{position: absolute; top:100px; right: 150px;}
+.section5_font div{display:block; font-size: 40px; font-weight: 900; margin-bottom: 10px;}
+.section5_font span{font-size: 18px;}
+
+.sect5_1{width:45%; box-sizing: border-box; position: absolute; top: 0; left: 20px;}
+.sect5_1 a{text-decoration: none; color: #000; width: 100%; display: inline-block;}
+.img1{width: 85%; margin-bottom: 15px; border-radius: 300px;}
+.im1{width: 25%; padding-top: 80px;}
+
+.sect5_2{width:40%; position: absolute; top: 440px; right: 20px; box-sizing: border-box;}
+.sect5_2 a{text-decoration: none; color: #000; width: 100%; display: inline-block;}
+.img2{width: 100%; margin-bottom: 15px; border-radius: 300px;}
+.im2{width: 45%; padding-top: 50px; float: right; padding-right: 15px;}
+
+.sect5_3{width: 100%; position: absolute; top: 950px; left: 0; padding-left: 150px; box-sizing: border-box;}
+.sect5_3 a{text-decoration: none; color: #000; width: 100%; display: inline-block;}
+.sect5_3 span{display: block; font-size: 17px;}
+.img3{width: 45%; margin-bottom: 15px; border-radius: 300px;}
+.im3{width: 18%; position: absolute; bottom:0; right: 370px;}
+
+.seciton_sect5s{font-size: 20px; font-weight: bold; margin-bottom: 15px; display: block; width: 320px;}
+.seciton_sect5ss{font-size: 17px; width: 320px; display: inline-block;}
+
+.section6{width: 100%; background-color: #FED6DA; overflow: hidden; position: relative;}
+.section6_font{position: absolute; top:0; left: -175px; overflow: hidden; color: #FDCFD3;}
+.section6_font p{font-size: 222px; font-weight: bold; line-height: 1em; margin-top: 0;}
+.section6_img{width: 50%; float: left; text-align: center;}
+.section6_img img{width: 470px; transform: translateY(43px);}
+.section6_btn{width: 50%; float: left; padding-left: 30px; box-sizing: border-box;}
+.section6_title{font-size: 38px; font-weight: bold; padding-bottom: 30px;}
+.section6_one{padding: 100px 0 50px;}
+.section6_subtitle{font-size: 17px;}
+.section6_subbtn a{border: 1px solid #000; padding: 10px 15px; text-decoration: none; color: #000; border-radius: 30px; display: inline-block; width: 150px; overflow: hidden;}
+.section6_subbtn a span:first-child{float: left;}
+.section6_subbtn a span:last-child{float: right;}
+
+.footer{background-color: #2E2E2E; width: 100%; overflow: hidden; padding: 80px 0; box-sizing: border-box;}
+.left{width: 50%; float: left;}
+.left div a{width: 20px;}
+.footer_main{width: 25%; height: 20px; margin: 0;}
+.footer_sub{width: 20px; height: 20px; margin: 0 10px;}
+.footer_{padding: 15px 0 0 20px; color: #fff;}
+.rigth{width: 50%; float: right;}
+.rigth img{width: 30%; float: right; padding-right: 20px;}
+
